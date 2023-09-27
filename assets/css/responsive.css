@@ -1,3 +1,11 @@
+@media screen and (max-width: 1405px) {
+  .part4_section {
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .carusel_title {
     font-size: 30px;
@@ -75,29 +83,38 @@
   .feature_info {
     text-align: center;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .title_desc {
+  .part4_section_members {
+    width: 100%;
+    height: 100%;
+  }
+  .part4_section_desc {
     width: 100%;
   }
-  .cards_intro {
+  .aplicants_name {
     width: 100%;
+  }
+  .aplicant_card {
+    width: 100%;
+  }
+  .feature_info {
+    width: 100%;
+  }
+  .part4_section {
+    padding: 0;
   }
   .members_widget {
     width: 100%;
   }
   .proposal_widget {
-    position: relative;
     width: 100%;
   }
-  .prop_button {
-    position: absolute;
+  .cards_intro {
     width: 100%;
-    bottom: 8px;
-    left: 0;
   }
-  .feature_desc {
+}
+
+@media screen and (max-width: 600px) {
+  .part4_desc_2 {
     width: 100%;
   }
 }
