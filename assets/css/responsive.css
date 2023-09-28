@@ -67,6 +67,10 @@
     font-size: 30px;
     line-height: 40px;
   }
+  .part6_section {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -110,6 +114,12 @@
   }
   .cards_intro {
     width: 100%;
+  }
+  .part6_cards {
+    width: 100%;
+  }
+  .part6_section {
+    padding: 0;
   }
 }
 
